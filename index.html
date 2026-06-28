@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ✅ iOS home screen icon — THIS is the key tag -->
+  <link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAF+0lEQVR4nO2dO67bMBBFnSDLeet6/WuzhDTps6P0WVAKAYJgewRJnM8d6pwySGjp8mRIyaT57e/PXw+Ad3yvvgDQBTnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnA5Ef1BdTw8fV59p/8+/0n4kqUuYUcF1Q40sj0ukwrh4sQxz9iSlFmkyPBif3PncmSSeSocuKVmSzpLYeOE69MYElXOZS1eGK51I6K9JOjkRZbOirSSY6mWmzppUgPOSbQYksXRRq8Pp/MjBX9+5KuHPrxDSJeQnQrx/RmrMjeqWLlkA0rDs0SIlc5bmjGitq9a8mhlk4+UgmoDCtSodSiM8RIVA7MeEUhk3o5FFLQpDyZYjnK71+c2nwq5cCMIxSmVCYHZhynKqsaOTDjLCWJFciBGdfIzy1bDswYITm9VDkwY5zMDOvfc4AseXJQNrxISzJJDszwJSfPDDkwI4KEVJlzgEn4V/ZVZePtV97jFxPU7DU+vj5Dv9n/FnrGW35qB8M6e2FBzboQ58dUw8rxmE4FGtSsPoGVI/O/0eVe2b/IoGbdCZIyqnK0MGP/3wY1G0FQ2u2HlfFueNtCULO9CJGDFxv5RGTeu3J4/e98aieo2Xb4y5FWNnyjX1sLajYB9+R7Vw4IxVkOZhu1+ObftXJElOt/v/8ENeveZg6eclA2FHDsha6VAxJADjBxk4MxRQevvqBygAlygImPHPljSsQnfnx9BjXr3mbOh1I5wAQ5wMRBjvLzb3xbC2o2n/GP7l05vKJ/aieo2Xb0liOO7v3qgspPTV5mZO/GvgGDRy1NoNfo6nPZnSn7RJ8raynbK642lcPxi+9rPXSqRFl/c/3zFnWlx5zDy4zB11yOb8laLPJQl8NxAU7cM8i1loPWFjkiPawMZhdXup9aHtz+JDvE6FaOLtuKulznBYYqh6zyF3jqoWlubeRRX7RyZG4rejv2H5wQzL39SVGOzKT2P0vnSkpQlCONzNrQkfvKcdufZDmOnBy+PRE9r/RtX81COTlyONsNat2Ww03lgCMgB5ggB5ggB5jcVI6zTxnTvE0/hZwcvR4Oez14n0VOjjSO94Ran6VxXzkex3r9tmY8NOXI7I+DC9DLr6QERTkeuduK3q4MPbhcdO7tT0OLfZSXuJ1lmht5Ys6tCS4nzWxbcOz+uR9SVkSHlQXZ1BxRvkdpOR6SW0VENtEkoC7HgqMfg9sI1DbRhKI753hicFvzlmvz6Ko9uoU4HONVfsPRh211OczrlUGh21SOCPa3Nd9z9deWHnOOHVy68Gky4TW36K5XbzkiDs7pexiPOw5ytL7/iRnvl96VA0JpLEeXg3P6VlYfOfre/6y49EjjygHRIAeYuMnByKKDV19QOcAEOcDEU47kkaXLwTnJX7859gKVA0yc5WBaWotv/r0rR8TBOdMcxjOOvxxNZx7bdpruRnFPvnflgFBC5GhXPLx+6963hVNEZD5J5Rg8KCOtzV44LDC2KAno7HlKVW36ElSqAytHyWNtxK9uiP+SR1zOE64+39/hcvkML/c29QkcVhZmDU6E0PIcPiHlnWkc0dlO8rQCEWTIQfGIICHVpMqBH77k5Jk3rOCHF2lJMucAk1Q5KB7jZGaYXTnwY4Tk9AqGFfy4Rn5uNXMO/DhLSWJlE1L8OE5VVpVPK/hxhMKUih9l8WOf2nzq33Pgh0V5MvVyPARSEEQhE5XFPksWLP54aGixIFE5VnRyqUIqAS05HmLpJKN27yrDypYbDjFqWizIVY4VzbwikL1TxcqxMn0JkdViQbdyrIgneBn9+5KuHCuTlRB9LRZ6yLEwgSJdtFjoJMdCU0V6abHQT46FRop01GKhqxwL+0ct1dLXiZXecqzoWDKBEyuTyLFSZclMTqzMJsdK0EHl1kdMybRybHntxapzZXtxCzleuWFPX6DB63OoAjnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnABDnA5D8Hv3dg9V0QuQAAAABJRU5ErkJggg==">
+
+  <!-- ✅ Page name that appears under the icon on iOS -->
+  <meta name="apple-mobile-web-app-title" content="OSS Hub">
+
+  <!-- ✅ Makes it feel like a native app when launched from home screen -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Standard favicon fallback -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,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">
+
+  <title>OSS Hub — Icon Test</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Jost', sans-serif;
+      background: #FDF6F8;
+      color: #3d2a2f;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .icon-preview {
+      width: 120px;
+      height: 120px;
+      border-radius: 26px;
+      overflow: hidden;
+      margin: 0 auto 1.5rem;
+      box-shadow: 0 4px 20px rgba(180, 100, 120, 0.25);
+    }
+
+    .icon-preview img { width: 100%; height: 100%; }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 400;
+      color: #C97A8A;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #8a6570;
+      line-height: 1.6;
+      max-width: 320px;
+      margin: 0 auto 2rem;
+    }
+
+    .steps {
+      background: white;
+      border: 1px solid #f0d8e0;
+      border-radius: 16px;
+      padding: 1.5rem;
+      max-width: 340px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .steps h2 {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #C97A8A;
+      margin-bottom: 1rem;
+    }
+
+    .step {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-start;
+      margin-bottom: 0.85rem;
+      font-size: 0.9rem;
+      color: #5a3d45;
+      line-height: 1.4;
+    }
+
+    .step:last-child { margin-bottom: 0; }
+
+    .step-num {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #C97A8A;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .check {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 20px;
+      margin-top: 1.5rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="icon-preview">
+    <img src="data:image/png;base64,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" alt="OSS Hub icon">
+  </div>
+
+  <h1>Icon test page</h1>
+  <p>If the home screen icon is working, you should see the rose icon when you add this page to your iPhone home screen.</p>
+
+  <div class="steps">
+    <h2>How to add to home screen</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <div>Open this page in <strong>Safari</strong> (must be Safari, not Chrome)</div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div>Tap the <strong>Share</strong> button (box with arrow) at the bottom</div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div>Scroll down and tap <strong>"Add to Home Screen"</strong></div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div>Tap <strong>Add</strong> — you should see the rose icon on your home screen</div>
+    </div>
+    <div style="text-align:center">
+      <span class="check">✓ apple-touch-icon embedded as base64</span>
+    </div>
+  </div>
+
+</body>
+</html>
